@@ -14,13 +14,13 @@ This script was built for DevOps engineers who want a **production-ready**, **id
 
 ## ⚙️ Key Features
 
-✅ **Full Automation** — One script handles cloning, building, deployment, and proxy configuration.
-✅ **Supports Docker & Docker Compose** — Works with either `Dockerfile` or `docker-compose.yml`.
-✅ **Automatic Remote Setup** — Installs and configures Docker, Compose, and Nginx on the target server.
-✅ **Reverse Proxy Configuration** — Dynamically creates Nginx config that forwards port 80 → app port.
-✅ **Logging & Error Handling** — Every step is logged, with clear failure codes and messages.
-✅ **Idempotent Design** — Safe to re-run; old containers are replaced cleanly.
-✅ **Cleanup Mode** — Run `--cleanup` to safely tear down the app, containers, and Nginx config.
+- **Full Automation** — One script handles cloning, building, deployment, and proxy configuration.
+- **Supports Docker & Docker Compose** — Works with either `Dockerfile` or `docker-compose.yml`.
+- **Automatic Remote Setup** — Installs and configures Docker, Compose, and Nginx on the target server.
+- **Reverse Proxy Configuration** — Dynamically creates Nginx config that forwards port 80 → app port.
+- **Logging & Error Handling** — Every step is logged, with clear failure codes and messages.
+- **Idempotent Design** — Safe to re-run; old containers are replaced cleanly.
+- **Cleanup Mode** — Run `--cleanup` to safely tear down the app, containers, and Nginx config.
 
 ---
 
@@ -280,12 +280,5 @@ This removes:
 DevOps Engineer | AWS | Kubernetes | Terraform | Python | Git | Docker | GCP |
 GitHub: [@otie16](https://github.com/otie16)
 
----
 
-## 📜 License
 
-This project is licensed under the **MIT License** — feel free to use and modify for personal or educational purposes.
-
----
-
-Would you like me to add a **“Test Commands”** section (e.g., how to verify Docker, Nginx, and curl endpoints) at the bottom too — so recruiters or reviewers can easily test that the deployment works after running it?
